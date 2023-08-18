@@ -1,6 +1,7 @@
 {
   "name": "a-wu5",
   "version": "0.1.0",
+  "homepage": "https://a-wu5.github.io/",
   "private": true,
   "scripts": {
     "dev": "next dev",
