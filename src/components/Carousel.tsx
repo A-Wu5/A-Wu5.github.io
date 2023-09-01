@@ -1,8 +1,8 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
-import { Card } from "Card";
+import Card from "./Card";
 
-const Carousel = ({ cards }) => {
+const Carousel = ({ cards }: { cards: any }) => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
